@@ -329,10 +329,10 @@ function Luxt1.CreateWindow(libName, logoId)
                 end
             end
             game.TweenService:Create(tabLogo, TweenInfo.new(0.18, Enum.EasingStyle.Quint, Enum.EasingDirection.In), {
-                ImageColor3 = Color3.fromRGB(153, 255, 238)
+                ImageColor3 = Color3.fromRGB(255, 255, 255)
             }):Play()
             game.TweenService:Create(tabBtn, TweenInfo.new(0.18, Enum.EasingStyle.Quint, Enum.EasingDirection.In), {
-                TextColor3 = Color3.fromRGB(153, 255, 238)
+                TextColor3 = Color3.fromRGB(255, 255, 255)
             }):Play()
         end)
 
