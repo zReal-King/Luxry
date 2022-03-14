@@ -384,7 +384,7 @@ function Luxt1.CreateWindow(libName, logoId)
             sectionName.Size = UDim2.new(0, 302, 0, 36)
             sectionName.Font = Enum.Font.GothamSemibold
             sectionName.Text = sectionText
-            sectionName.TextColor3 = Color3.fromRGB(153, 255, 238)
+            sectionName.TextColor3 = Color3.fromRGB(255, 255, 255)
             sectionName.TextSize = 14.000
             sectionName.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -751,7 +751,7 @@ function Luxt1.CreateWindow(libName, logoId)
                             textboxInfo.TextXAlignment = Enum.TextXAlignment.Left
 
                             TextBox.Parent = textboxFrame
-                            TextBox.BackgroundColor3 = Color3.fromRGB(153, 255, 238)
+                            TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
                             TextBox.ClipsDescendants = true
                             TextBox.Position = UDim2.new(0.0250000004, 0, 0.194000006, 0)
                             TextBox.Size = UDim2.new(0, 100, 0, 22)
