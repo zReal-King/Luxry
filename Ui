@@ -158,7 +158,7 @@ function Luxt1.CreateWindow(libName, logoId)
     hubName.ZIndex = 2
     hubName.Font = Enum.Font.GothamSemibold
     hubName.Text = libName
-    hubName.TextColor3 = Color3.fromRGB(255, 255, 255)
+    hubName.TextColor3 = Color3.fromRGB(153, 255, 238)
     hubName.TextSize = 14.000
     hubName.TextWrapped = true
     hubName.TextXAlignment = Enum.TextXAlignment.Left
@@ -258,7 +258,7 @@ function Luxt1.CreateWindow(libName, logoId)
         tabBtn.ZIndex = 2
         tabBtn.Font = Enum.Font.Gotham
         tabBtn.Text = tabText
-        tabBtn.TextColor3 = Color3.fromRGB(153, 255, 238)
+        tabBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
         tabBtn.TextSize = 14.000
         tabBtn.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -271,7 +271,7 @@ function Luxt1.CreateWindow(libName, logoId)
         tabLogo.Size = UDim2.new(0, 25, 0, 25)
         tabLogo.ZIndex = 2
         tabLogo.Image = "rbxassetid://"..tabId
-        tabLogo.ImageColor3 = Color3.fromRGB(153, 255, 238)
+        tabLogo.ImageColor3 = Color3.fromRGB(255, 255, 255)
         --
 
         local newPage = Instance.new("ScrollingFrame")
