@@ -395,7 +395,7 @@ function Luxt1.CreateWindow(libName, logoId)
             sectionExpannd.Size = UDim2.new(0, 25, 0, 25)
             sectionExpannd.ZIndex = 2
             sectionExpannd.Image = "rbxassetid://3926305904"
-            sectionExpannd.ImageColor3 = Color3.fromRGB(153, 255, 238)
+            sectionExpannd.ImageColor3 = Color3.fromRGB(255, 255, 255)
             sectionExpannd.ImageRectOffset = Vector2.new(564, 284)
             sectionExpannd.ImageRectSize = Vector2.new(36, 36)
             sectionExpannd.MouseButton1Click:Connect(function()
@@ -858,7 +858,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
                                 dragSlider.Name = "dragSlider"
                                 dragSlider.Parent = sliderbtn
-                                dragSlider.BackgroundColor3 = Color3.fromRGB(153, 255, 238)
+                                dragSlider.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
                                 dragSlider.Size = UDim2.new(0, 0, 0, 6)
                                 dragSlider.ZIndex = 2
 
