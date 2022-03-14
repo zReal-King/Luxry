@@ -251,7 +251,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
         tabBtn.Name = "tabBtn"
         tabBtn.Parent = tabBtnFrame
-        tabBtn.BackgroundColor3 = Color3.fromRGB(0, 255, 13)
+        tabBtn.BackgroundColor3 = Color3.fromRGB(166, 248, 255)
         tabBtn.BackgroundTransparency = 1.000
         tabBtn.Position = UDim2.new(0.245534033, 0, 0, 0)
         tabBtn.Size = UDim2.new(0, 101, 0, 30)
@@ -751,7 +751,7 @@ function Luxt1.CreateWindow(libName, logoId)
                             textboxInfo.TextXAlignment = Enum.TextXAlignment.Left
 
                             TextBox.Parent = textboxFrame
-                            TextBox.BackgroundColor3 = Color3.fromRGB(153, 255, 238)
+                            TextBox.BackgroundColor3 = Color3.fromRGB(255, 255,255)
                             TextBox.ClipsDescendants = true
                             TextBox.Position = UDim2.new(0.0250000004, 0, 0.194000006, 0)
                             TextBox.Size = UDim2.new(0, 100, 0, 22)
