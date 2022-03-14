@@ -579,7 +579,7 @@ function Luxt1.CreateWindow(libName, logoId)
                                 on = not on
                                  callback(on) 
                                 if on then
-                                    checkBtn.Parent.toggleInfo.TextColor3 = Color3.fromRGB(22, 168, 76)
+                                    checkBtn.Parent.toggleInfo.TextColor3 = Color3.fromRGB(0, 255, 0)
                                     checkBtn.ImageColor3 = Color3.fromRGB(0, 255, 13)
                                     checkBtn.ImageRectOffset = Vector2.new(4, 836)
                                     checkBtn.ImageRectSize = Vector2.new(48,48)
