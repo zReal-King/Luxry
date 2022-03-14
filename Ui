@@ -1123,7 +1123,7 @@ function Luxt1.CreateWindow(libName, logoId)
                                     expand_more.Size = UDim2.new(0, 25, 0, 25)
                                     expand_more.ZIndex = 2
                                     expand_more.Image = "rbxassetid://3926305904"
-                                    expand_more.ImageColor3 = Color3.fromRGB(153, 255, 238)
+                                    expand_more.ImageColor3 = Color3.fromRGB(255, 255, 255)
                                     expand_more.ImageRectOffset = Vector2.new(564, 284)
                                     expand_more.ImageRectSize = Vector2.new(36, 36)
                                     expand_more.MouseButton1Click:Connect(function()
@@ -1159,7 +1159,7 @@ function Luxt1.CreateWindow(libName, logoId)
                                     dropdownItem1.ZIndex = 2
                                     dropdownItem1.Font = Enum.Font.GothamSemibold
                                     dropdownItem1.Text = dropInfo
-                                    dropdownItem1.TextColor3 = Color3.fromRGB()
+                                    dropdownItem1.TextColor3 = Color3.fromRGB(255 ,255, 255)
                                     dropdownItem1.TextSize = 14.000
                                     dropdownItem1.TextXAlignment = Enum.TextXAlignment.Left
 
